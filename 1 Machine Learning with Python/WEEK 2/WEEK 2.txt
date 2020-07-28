@@ -1,0 +1,6 @@
+WEEK 2
+
+Video 1
+	*What is regression
+		*X: independent variables (explain the data)
+		*Y: dependent variable (classify the data, the variable to be estimated via regression)

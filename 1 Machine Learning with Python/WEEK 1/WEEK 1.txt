@@ -1,0 +1,67 @@
+WEEK 1
+
+Video 1
+
+Video 2
+	*Major machine learning techniques
+		*Regression/Estimation
+			*Predicting continuous values (predicting the price of a house)
+		*Classification
+			*Predicting the item class/category of a case (predicting if a cancer is binign of malificent)
+		*Clustering
+			*finding the structure of a data; summarization (customer segmentation at the banking field)
+		*Associations
+			*association frequent co-occuring items/events (items usually purchased together)
+		*Anomaly detection
+			*discovering abnormal and unusual cases (fraud detection)
+		*Sequence mining
+			*predicting next events; (click-stream in websites (Markov Model, HMM))
+		*Dimension Reduction
+			*reducing the size of data (PCA)
+		*Recommendation systems
+			*recommending items
+	*Differnce between artificial intelligence, machine learning, and deep learning
+		*AI: wants to make a computer intelligent and capable of decision making in order to mimic the cognitive function of humans
+			*computer vision
+			*language processing
+			*creativity
+			*summarization
+			*etc
+		*Machine learning: branch of AI that covers statistical intelligence; teaches the computer to learn from some problems and then solve other similar ones
+			*classification
+			*clustering
+			*neural network
+			*etc
+		*Revolution in ML
+			*Deep learning: specific field from ML where computers can learn to make descisions on their own (deeper level of automation in comparison to other fields of ML)
+
+Video 3
+	*Python libraries for ML
+		*NumPy (manage N-dimensional arrays in python)
+		*SciPy (numerical algoriths - signal processing, optimization, statistics, etc)
+		*matplotlib (ṕloting package)
+		*if you're not familiar with these packages, take the DATA ANALYSIS WITH PYTHON course first
+		*pandas (high-performance easy-to-use data structures)
+		*scikit-learn (collection of algorithms and tools for ML)
+	*More about scikit-learn
+		*free software ML learning library
+		*classification, regression and clustering algorithms
+		*works with NumPy and SciPy
+		*great documentation
+		*easy to implement
+
+Video 4
+	*teaching the model with labeled data
+		*atributes are the characteristics used to classify a model
+		*features are the values of spicific atributes for a specific data sample
+		*observation is a specific sample
+	*classification is determining a descrete class label or category
+	*regression is predicting a continuous value
+	*Unsupervised techniques
+		*dimension reduction (removes reduntant information)
+		*density estimation (very simple technique used to find some structure within the data)
+		*market basket analysis (modeling technique based on the theory that if you buy a certain group of items, you're more likely to buy another group of items)
+		*clustering (grouping data points that are somehow similar)
+			*discovering structure
+			*summarization
+			*anomaly detection
