@@ -4,3 +4,29 @@ Video 1
 	*What is regression
 		*X: independent variables (explain the data)
 		*Y: dependent variable (classify the data, the variable to be estimated via regression)
+	*Types of regression
+		*simple regression (when an independent variable is used to predict a dependent variable)
+			*simple linear regression
+			*simple non-linear regression
+		*multiple regression (more than one independent variables are used to predict a dependent variable)
+			*multiple linear regression
+			*multiple non-linear regression
+
+Video 2
+
+Video 3
+	*Training accuracy
+		*accuracy of the model when using the values from the training set
+		*high training accuracy can mean over-fit. Over-fit is when the model is overly trained to the specific training set and may become non-generalized
+	*Out-of-sample accuracy
+		*accuracy of predictions of the model using data from outside of the training set
+
+Video 4
+	*MAE mean absolute value (just the average error)
+	*MSE mean squared error (more popular than MAE because the focus is given towards large errors)
+	*RMSE root mean squared error (more popular because it is easy to interpret given the unit of measure)
+	*RAE relative absolute error (normalization of normal errors)
+	*RSE relative squared error (similar to RAE but more used by the data science community because it is used to determine R²)
+	*R² (not an error per se, it is a popular accuracy metric for models; the higher the R², the better the model fits your data)
+
+Video 5
