@@ -30,3 +30,22 @@ Video 4
 	*R² (not an error per se, it is a popular accuracy metric for models; the higher the R², the better the model fits your data)
 
 Video 5
+    *Why to use multiple linear regression
+        *independent variables effectiveness on prediction
+            *which are the independent variables most related to the dependent variable
+        *predicting impacts of changes
+            *how the dependent variable changes with changes in the independent variables
+    *Estimating linear regression parameters
+        *Ordinary Least Squares
+            *linear algebra operations
+            *takes a long time for large datasets (10K+ rows)
+        *An optimization algorithm
+            *Gradient Descent
+            *Proper approach for large datasets
+    *Making predictions with multiple linear regression
+        *the higher the coefficient that multiplies an independent variable, the greater its impact on the dependent variable
+    *Q&A
+        *how many independent variables to consider?
+            *too many might lead to overfitting
+        *there should be a linear relation between each of the independent variables and the dependent variable
+            *there are many ways to check it (ex: scatter plots)
