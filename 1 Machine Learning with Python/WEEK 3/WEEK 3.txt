@@ -1,0 +1,33 @@
+WEEK 2
+
+Video 1
+    * In classification, the dependent variable is discreete
+	
+Video 2
+    * to better determine which k to use in K-NN, divide into folds and apply different k's into each of the folds to then determine which is the best
+
+Video 3
+    * How to evaluate the accuracy of classifiers
+        * Jaccard index
+            * number of correct classifications from the test set divided by number of test samples
+        * F1-Score
+            * Confusion matrix
+            * Precision: (true positive)/(true positive - false positive)
+            * Recall: (true positive)/(true positive - false negative)
+            * F1-Score: 2*(precision * recall)/(precision + recall)  (best value at 1)
+        * Log loss
+            * performance of a classifier where the predicted output is a probability value between 0 and 1
+            * (y * log(ŷ)) + ((1 - y) * log(1 - ŷ))
+            * the classifier with the lower log loss has better accuracy
+
+Video 4
+
+Video 5
+
+Video 6
+
+Video 7
+    
+Video 8
+
+Video 9
