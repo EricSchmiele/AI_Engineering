@@ -21,8 +21,18 @@ Video 3
             * the classifier with the lower log loss has better accuracy
 
 Video 4
+    * How to build a decision tree
+        * 1 choose an attribute from the data set
+        * calculate the significance of the attribute
+        * split the data based on the value of best attribute
+        * go to step 1
 
 Video 5
+    * in order to calculate the significance of an attribute for building the decision tree
+        * choose the attributes with highest purity in the classes divided by its values
+        * choose attributes with less entropy in the classes divided by its values
+            * if an attribute has two possible values and one of the divisions has the same amount of each class, then the entropy of that division is 1
+            * if another division has only values of one class then the entropy is 0
 
 Video 6
 
