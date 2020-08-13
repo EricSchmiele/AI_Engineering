@@ -51,3 +51,18 @@ Video 8
     * how to ajust the theta values for logistic regression
 
 Video 9
+    * SVM
+        * mapping data to a high-dimensional feature space: kernelling
+            * linear
+            * polynomial
+            * rbf
+            * sigmoid
+        * finding a separator
+            * determined by the support vectors
+    * advantages
+        * accurate in high-dimensional spaces
+        * memory efficient
+    * disadvantages
+        * prone to over-fitting
+        * no probability estimation
+        * not efficient for small data
