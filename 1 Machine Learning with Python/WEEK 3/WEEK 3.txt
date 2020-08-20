@@ -1,4 +1,4 @@
-WEEK 2
+WEEK 3
 
 Video 1
     * In classification, the dependent variable is discreete

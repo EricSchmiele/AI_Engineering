@@ -1,0 +1,74 @@
+WEEK 4
+
+Video 1
+    * Clustering (separation of unlabeled data), where and how to use 
+        * retail/ marketing
+            * identifying buying patterns of customers
+            * recommending new books or movies to new customers
+        * banking
+        	* fraud detection in credit card use
+        	* identifying clusters of customers (e.g., loyal)
+    	* insurance
+    		* fraud detection in claims analysis
+		* publication
+			* auto-categorizing news based on their content
+			* recommending similar news articles
+		* medicine
+			* characterizing patient behavior
+		* biology
+			* clustering genetic markers to identify family ties
+	* why to use
+		* exploratory data analysis
+		* summary generation
+		* outlier detection
+		* finding duplicates
+		* pre-processing step
+	* algorithms
+		* partitioned-based clustering
+			* relativily efficient (medium and large size data bases)
+		* hierarchical clustering
+			* produces trees of clusters (small size data bases)
+		* density-based clustering 
+			* produces arbitrary shaped clusters (good for when there is noise in data)
+	
+Video 2
+	* k-means clustering
+
+Video 3
+	* how to chose k for k-means clustering
+		* elbow-point (one of the possible metrics)
+			* increasing k will always diminishes the error
+			* however, there is a point in the graph where the error sharply changes (the elbow point)
+			* this is considered to be the optimal number of clusters
+
+Video 4
+	* hierarchical clustering
+		* builds a hierarchy where each node is a cluster and consists of the clusters of its daughter nodes
+		* divisive clustering (everything is together and then divided)
+		* agglomerative (everything is divided and then gathered) (more popular)
+
+Video 5
+	* distances between clusters
+		* single-linkage clustering
+			* minimum distance between clusters
+		* complete-linkage clustering
+			* maximum distance between clusters
+		* average linkage clustering
+			* average distance between clusters
+		* centroid linkage clustering
+			* distance between cluster centroids
+	* k-means vs hierarchical
+		* k-means
+			* much more efficient
+			* requires the number of clusters to be specified
+			* gives only one partitioning of the data based on the predifined number of clusters
+			* potentially returns different clusters each time it is run due to random initialization of centroids
+		* hierarchical
+			* can be slow for large datasets
+			* does not require the number of clusters to run
+			* gives more than one partitioning depending on the resolution
+			* always generates the same clusters
+
+Video 6
+	* traditional clustering techniques might not be enough for clustering data with arbitrary shape clusters or clusters within clusters
+	* enter, density-based clustering
