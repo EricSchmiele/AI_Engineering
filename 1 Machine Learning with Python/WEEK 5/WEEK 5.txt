@@ -1,7 +1,7 @@
 WEEK 5
 
 Video 1
-    * Recomendation systems
+    * Recommendation systems
         * advantages
             * broader exposure
             * possibility of continual usage or purchase of products
