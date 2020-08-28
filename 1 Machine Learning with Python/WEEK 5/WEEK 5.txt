@@ -1,0 +1,14 @@
+WEEK 5
+
+Video 1
+    * Recomendation systems
+        * advantages
+            * broader exposure
+            * possibility of continual usage or purchase of products
+            * provides better experience
+        * two types (content base) (collaborative filtering)
+        * implemantations (memory based) (model based)
+	
+Video 2
+
+Video 3
